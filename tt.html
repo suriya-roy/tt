@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Saurya Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #0f172a;
+      color: #f1f5f9;
+    }
+
+    header {
+      background: #1e293b;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    header p {
+      font-style: italic;
+      color: #94a3b8;
+    }
+
+    nav {
+      background: #334155;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #e2e8f0;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #38bdf8;
+    }
+
+    section {
+      padding: 50px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .projects, .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .card {
+      background: #1e293b;
+      border-radius: 12px;
+      padding: 20px;
+      width: 260px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: #38bdf8;
+    }
+
+    .contact-form {
+      background: #1e293b;
+      padding: 30px;
+      border-radius: 10px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      border: none;
+      border-radius: 6px;
+    }
+
+    input[type="submit"] {
+      background: #38bdf8;
+      color: black;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background: #0ea5e9;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #1e293b;
+      color: #94a3b8;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Saurya </h1>
+    <p>Creative Web Designer & Front-End Developer</p>
+  </header>
+
+  <nav>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="projects">
+    <h2>Featured Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Portfolio Website</h3>
+        <p>A personal site built using HTML, CSS, and JavaScript to showcase my works.</p>
+      </div>
+      <div class="card">
+        <h3>E-commerce UI</h3>
+        <p>Modern shopping interface prototype designed for a startup clothing brand.</p>
+      </div>
+      <div class="card">
+        <h3>Blog Template</h3>
+        <p>Clean, minimal blogging platform design using semantic HTML5.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>My Skills</h2>
+    <div class="skills">
+      <div class="card">
+        <h3>HTML5 & CSS3</h3>
+        <p>Expertise in writing clean, semantic, and accessible code.</p>
+      </div>
+      <div class="card">
+        <h3>Responsive Design</h3>
+        <p>Mobile-first design using media queries and flexible grids.</p>
+      </div>
+      <div class="card">
+        <h3>UI/UX Design</h3>
+        <p>User-centered layout and design with Figma and prototyping tools.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <div class="contact-form">
+      <form action="#">
+        <label>Your Name:<br><input type="text" n
